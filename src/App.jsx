@@ -1147,7 +1147,7 @@ Provide a rating (1-5) and brief feedback (2-3 sentences). Format your response 
             {aiMode === 'mock' ? (
               <button
                 onClick={switchToRealAI}
-                className="flex items-center gap-2 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 px-4 py-2 rounded font-semibold"
+                className="flex items-center gap-2 bg-gradient-to-r from-green-600 to-blue-600 hover:from-yellow-700 hover:to-blue-700 px-4 py-2 rounded font-semibold"
               >
                 <Sparkles className="w-4 h-4" />
                 Upgrade to Real AI
@@ -1350,7 +1350,7 @@ Provide a rating (1-5) and brief feedback (2-3 sentences). Format your response 
                     onChange={(e) => setUserInput(e.target.value)}
                     onKeyPress={(e) => e.key === 'Enter' && handleSendMessage()}
                     placeholder="Type your response..."
-                    className="flex-1 bg-gray-700 border border-gray-600 rounded px-4 py-2 focus:outline-none focus:border-blue-500"
+                    className="flex-1 bg-gray-700 border border-gray-600 rounded px-4 py-2 focus:outline-none focus:border-pink-500"
                   />
                   <button
                     onClick={handleSendMessage}
